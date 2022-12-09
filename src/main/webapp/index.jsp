@@ -5,12 +5,11 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Tienda de discos" %>
-</h1>
+<h1><%= "Tienda de discos" %> </h1>
 <br>
-<a href="catalogogrupo-servlet">Lista Grupos del catalogo</a>
+<a href="listagrupos-servlet">Lista Grupos del catalogo</a>
 <br>
-<a href="buscadisco-servlet">Busca Discos de un grupo</a>
+<a href="buscagrupo-servlet">Busca Discos de un grupo</a>
 <br>
 <a href="compradisco-servlet">Compra un disco</a>
 </body>

@@ -19,7 +19,7 @@ public class GestorConsultas {
 
     private void creaFichero(){
 
-        String nombreFichero = "/home/tomcat/ficheroDiscos";
+        String nombreFichero = "/home/INFORMATICA/alu10193307/IdeaProjects/PrimerServlet/resources/discos2.dat";
         try {
             File f = new File(nombreFichero);
             if(f.exists()){
